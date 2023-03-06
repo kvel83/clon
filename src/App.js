@@ -9,7 +9,7 @@ import PageNotFound from "./views/PageNotFound";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/clon">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cl/login" element={<IniciarSesion />} />
