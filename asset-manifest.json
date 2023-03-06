@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/clon/static/css/main.e5f2f41b.css",
+    "main.js": "/clon/static/js/main.075458d2.js",
+    "static/media/netflix.jpeg": "/clon/static/media/netflix.a426897fca06cf5a252a.jpeg",
+    "index.html": "/clon/index.html",
+    "main.e5f2f41b.css.map": "/clon/static/css/main.e5f2f41b.css.map",
+    "main.075458d2.js.map": "/clon/static/js/main.075458d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5f2f41b.css",
+    "static/js/main.075458d2.js"
+  ]
+}
