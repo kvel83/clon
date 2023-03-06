@@ -1,0 +1,11 @@
+.formSizeInput {
+    width: 30rem !important;
+    height: 4rem;
+    border-radius: 0 !important;
+}
+.formSizeButton {
+    font-size: x-large;
+}
+.container-fluid{
+    margin-top: 6rem;
+}
