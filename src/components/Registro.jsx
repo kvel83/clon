@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Container , NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Laptop , Display , Tablet , Phone } from "react-bootstrap-icons";
+import logo from "../assets/img/Netflix-Logo-PNG.png"
 
 const Registro = () => {
     return(
@@ -11,7 +12,7 @@ const Registro = () => {
                   <Navbar.Brand href="">
                   <Link to="/">
                       <img
-                        src="/assets/img/Netflix-Logo-PNG.png"
+                        src={logo}
                         width="130"
                         height="100"
                         className="d-inline-block align-top"

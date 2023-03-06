@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import InicioSesion from "../components/InicioSesionCard";
+import logo from "../assets/img/Netflix-Logo-PNG.png"
 
 import "./IniciarSession.css"
 
@@ -10,7 +11,7 @@ export default () => {
         <div className="fondo">
             <Link to="/">
                 <img
-                src="/assets/img/Netflix-Logo-PNG.png"
+                src={logo}
                 width="130"
                 height="100"
                 className="d-inline-block align-top ms-5"

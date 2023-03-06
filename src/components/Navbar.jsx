@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import logo from "../assets/img/Netflix-Logo-PNG.png"
 
 const NavBarClon = () => {
     return (
@@ -12,7 +13,7 @@ const NavBarClon = () => {
               <Navbar.Brand href="">
                 <Link to="/">
                   <img
-                    src="/assets/img/Netflix-Logo-PNG.png"
+                    src={logo}
                     width="130"
                     height="100"
                     className="d-inline-block align-top"
