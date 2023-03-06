@@ -5,6 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Clon de Netflix
 
 App realizada con React, se utiliza React Routing para generación de rutas en la app, se utilizan Bootstrap y Bootstrap Icons ademas de CSS para los estilos.
-Se encuentran en desarrollo las funcionalidades y validaciones de la página.
+Se encuentran en desarrollo las funcionalidades y validaciones de la página asi como el diseño responsive.
 
 Demo en vivo: https://kvel83.github.io/clon/
