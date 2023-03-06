@@ -14,7 +14,7 @@ const Main = () => {
                 <Form>
                     <Form.Group controlId="registro" className="d-flex" size="lg">
                         <Form.Control type="email" placeholder="Email" className="formSizeInput "></Form.Control>
-                        <Link to="/cl/login" className="text-light bg-danger pb-2 pt-2 ps-3 pe-3 text-decoration-none fs-3">
+                        <Link to="/cl/registro" className="text-light bg-danger pb-2 pt-2 ps-3 pe-3 text-decoration-none fs-3">
                           Comenzar &gt;
                         </Link>
                     </Form.Group>

@@ -16,11 +16,11 @@ const InicioSesion = () => {
                             <Form.Control type="text" placeholder="Email o número de teléfono"></Form.Control>
                             <Form.Control type="text" placeholder="Contraseña"></Form.Control>
                             <Button variant="danger">Iniciar sesión</Button>
-                            <div className="ayudas d-flex gap-5">
+                            <div className="ayudas d-flex justify-content-between">
                                 <Form.Check label="Recuérdame" className="text-light" checked="true"></Form.Check>
-                                <a href="#" className="text-light">¿Necesitas ayuda?</a>
+                                <Link to="/cl/LoginHelp" className="text-light">¿Necesitas ayuda?</Link>
                             </div>
-                            <div className="info text-light pb-5 mt-5">
+                            <div className="info text-light pb-4 mt-5">
                                 <p>¿Primera vez en Netflix?<a href="#">Suscríbete ahora.</a></p>
                                 <p>Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. Más info.</p>
                             </div>

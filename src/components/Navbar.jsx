@@ -10,13 +10,15 @@ const NavBarClon = () => {
         <Navbar>
             <Container>
               <Navbar.Brand href="">
-                <img
-                  src="/assets/img/Netflix-Logo-PNG.png"
-                  width="130"
-                  height="100"
-                  className="d-inline-block align-top"
-                  alt="Netflix Logo"
-                />
+                <Link to="/">
+                  <img
+                    src="/assets/img/Netflix-Logo-PNG.png"
+                    width="130"
+                    height="100"
+                    className="d-inline-block align-top"
+                    alt="Netflix Logo"
+                  />
+                </Link>
               </Navbar.Brand>
               <Navbar.Collapse className="justify-content-end">
                 <NavDropdown title="🌎 Español" id="basic-nav-dropdown" className="text-light border border-light p-2">
